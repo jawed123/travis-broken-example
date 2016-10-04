@@ -1,6 +1,4 @@
-language: php
+language: python
 php:
-  - 5.5
-  - 5.4
-  - hhvm
-script: phpunit Test.php
+  - 2.7
+script: python Test.py
